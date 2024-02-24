@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int main(){
@@ -103,7 +102,7 @@ int main(){
         case 7:
         	
             int numero5;
-            cout << "Ingresa un número del 1 al 5: ";
+            cout << "Ingresa un nÃºmero del 1 al 5: ";
             cin >> numero5;
             switch (numero5) {
                 case 1:
@@ -113,7 +112,7 @@ int main(){
                     cout << "Martes" << endl;
                     break;
                 case 3:
-                    cout << "Miércoles" << endl;
+                    cout << "MiÃ©rcoles" << endl;
                     break;
                 case 4:
                     cout << "Jueves" << endl;
@@ -122,7 +121,7 @@ int main(){
                     cout << "Viernes" << endl;
                     break;
                 default:
-                    cout << "Número inválido. Debe estar entre 1 y 5." << endl;
+                    cout << "NÃºmero invÃ¡lido. Debe estar entre 1 y 5." << endl;
             }
             break;
             
